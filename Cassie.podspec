@@ -82,8 +82,8 @@ spec.homepage     = "https://github.com/iFlair-2004/Cassie.git"
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "Cassie"
+  spec.exclude_files = "Cassie/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -125,5 +125,5 @@ spec.homepage     = "https://github.com/iFlair-2004/Cassie.git"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-spec.swift_version = "4.2" 
+spec.swift_version = "5" 
 end
